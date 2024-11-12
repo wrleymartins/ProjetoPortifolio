@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou um .</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1. Aqui você pode falar sobre o que fez, quais tecnologias usou, etc.</p>
+            <a href="https://github.com/wrleymartins/api-bke-express-wrley-main.git" target="_blank">Ver Projeto</a>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2. Aqui você pode falar sobre o que fez, quais tecnologias usou, etc.</p>
+            <a href="https://github.com/wrleymartins/wrleyadsexpress.git" target="_blank">Ver Projeto</a>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 3</h3>
+            <p>Descrição do projeto 3. Aqui você pode falar sobre o que fez, quais tecnologias usou, etc.</p>
+            <a href="https://github.com/wrleymartins/Wrley-Rick-and-Morty.git" target="_blank">Ver Projeto</a>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
